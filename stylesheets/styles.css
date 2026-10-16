@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .testimonial-card {
@@ -32,7 +32,6 @@
 
 .photo-container img {
   border-radius: 50%;
-  border: 3px solid hsl(264, 82%, 80%);
 }
 
 blockquote p:first-child {
@@ -50,4 +49,21 @@ blockquote p:first-child {
 
 .testimonial-card:nth-of-type(1) .author-position, .second-quote {
   color: hsl(263, 74%, 86%);
+}
+
+.testimonial-card:nth-of-type(1) img {
+  border: 3px solid hsl(264, 82%, 80%);
+}
+
+.testimonial-card:nth-of-type(2) {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(214, 17%, 92%);
+}
+
+.testimonial-card:nth-of-type(2) img {
+  border: 3px solid hsl(217, 19%, 35%);
+}
+
+.testimonial-card:nth-of-type(2) .author-position {
+  color: hsl(217, 18%, 68%);
 }
