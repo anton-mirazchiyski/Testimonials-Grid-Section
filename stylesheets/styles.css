@@ -10,8 +10,8 @@
 }
 
 .testimonial-card {
-  border: 1px solid black;
   padding: 2rem;
+  border-radius: 7px;
 }
 
 .author {
@@ -27,10 +27,27 @@
 }
 
 .photo-container {
-  max-width: 2.2rem;
+  max-width: 2.5rem;
 }
 
 .photo-container img {
   border-radius: 50%;
   border: 3px solid hsl(264, 82%, 80%);
+}
+
+blockquote p:first-child {
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-card:nth-of-type(1) {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-card:nth-of-type(1) .author-name {
+  color: hsl(260, 100%, 95%);
+}
+
+.testimonial-card:nth-of-type(1) .author-position, .second-quote {
+  color: hsl(263, 74%, 86%);
 }
