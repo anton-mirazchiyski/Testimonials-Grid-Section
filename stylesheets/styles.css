@@ -1,6 +1,10 @@
 @import url(reset.css);
 @import url(fonts.css);
 
+body {
+  background-color: hsl(0, 0%, 96%);
+}
+
 .testimonials-section {
   margin: 3.5rem 2rem;
   display: grid;
@@ -66,4 +70,9 @@ blockquote p:first-child {
 
 .testimonial-card:nth-of-type(2) .author-position {
   color: hsl(217, 18%, 68%);
+}
+
+.testimonial-card:nth-of-type(3) {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
 }
