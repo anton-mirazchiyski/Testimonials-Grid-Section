@@ -77,3 +77,12 @@ blockquote p:first-child {
   background-color: hsl(0, 0%, 100%);
   color: hsl(217, 19%, 35%);
 }
+
+.testimonial-card:nth-of-type(4) {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(218, 9%, 83%);
+}
+
+.testimonial-card:nth-of-type(4) img {
+  border: 3px solid hsl(264, 82%, 80%);
+}
