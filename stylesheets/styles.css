@@ -86,3 +86,8 @@ blockquote p:first-child {
 .testimonial-card:nth-of-type(4) img {
   border: 3px solid hsl(264, 82%, 80%);
 }
+
+.testimonial-card:nth-of-type(5) {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
