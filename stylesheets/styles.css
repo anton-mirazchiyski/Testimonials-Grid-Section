@@ -92,6 +92,16 @@ blockquote p:first-child {
   color: hsl(217, 19%, 35%);
 }
 
+.attribution {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media screen and (min-width: 1024px) {
   .testimonials-section {
     margin: 8rem 11rem;
