@@ -135,6 +135,7 @@ blockquote p:first-child {
     background-repeat: no-repeat;
     background-position-y: top;
     background-position-x: 85%;
+    background-size: 7.7rem;
   }
 
   .testimonial-card:nth-of-type(2) {
