@@ -45,15 +45,11 @@ blockquote p:first-child {
 
 .testimonial-card:nth-of-type(1) {
   background-color: hsl(263, 55%, 52%);
-  color: hsl(0, 0%, 100%);
-}
-
-.testimonial-card:nth-of-type(1) .author-name {
   color: hsl(260, 100%, 95%);
 }
 
-.testimonial-card:nth-of-type(1) .author-position, .second-quote {
-  color: hsl(263, 74%, 86%);
+.testimonial-card:nth-of-type(1) .first-quote {
+  color: hsl(0, 0%, 100%);
 }
 
 .testimonial-card:nth-of-type(1) img {
@@ -67,10 +63,6 @@ blockquote p:first-child {
 
 .testimonial-card:nth-of-type(2) img {
   border: 3px solid hsl(217, 19%, 35%);
-}
-
-.testimonial-card:nth-of-type(2) .author-position {
-  color: hsl(217, 18%, 68%);
 }
 
 .testimonial-card:nth-of-type(3) {
