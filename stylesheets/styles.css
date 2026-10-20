@@ -5,6 +5,11 @@ body {
   background-color: hsl(0, 0%, 96%);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .testimonials-section {
   margin: 3.5rem 2rem;
   display: grid;
@@ -115,6 +120,7 @@ blockquote p:first-child {
 @media screen and (min-width: 1200px) {
   .testimonials-section {
     margin: 8rem;
+    max-width: 69rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2.2rem;
@@ -148,11 +154,5 @@ blockquote p:first-child {
   .testimonial-card:nth-of-type(5) {
     grid-column: 4 / 5;
     grid-row: 1 / 3;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .testimonials-section {
-    margin: 8rem 11rem;
   }
 }
