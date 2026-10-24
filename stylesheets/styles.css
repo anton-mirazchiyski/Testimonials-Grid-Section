@@ -21,7 +21,7 @@ main {
 .testimonial-card {
   padding: 2rem;
   border-radius: 7px;
-  box-shadow: 35px 35px 20px 1px hsl(214, 17%, 92%);
+  box-shadow: 25px 40px 35px 10px hsl(230, 7%, 83%);
 }
 
 .author {
